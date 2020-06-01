@@ -5,6 +5,7 @@ import About from "./components/About.js"
 import Contact from "./components/Contact.js"
 import Error from './components/Error.js'
 import Navigation from './components/Navigation'
+import UserHomePage from './components/UserHomepage'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' component={Home} exact />
         <Route path='/about' component={About} />
         <Route path='/contact' component={Contact} />
+        <Route path='/UserHomePage' component={UserHomePage} />
         <Route component={Error} />
       </Switch>
     </BrowserRouter>
